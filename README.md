@@ -21,6 +21,8 @@ Proje yerel makinenizde çalıştırılmak istenirse aşağıdaki adımları izl
 
 1. Depoyu klonlayın:
    ```bash
+   npm install
+   npm run dev
    git clone https://github.com/halil-akalin/TaskTrekV2.0.git
 
 ## Projeyi Ziyaret Et
