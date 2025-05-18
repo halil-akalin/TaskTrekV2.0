@@ -1,7 +1,7 @@
-# TaskTrekV2.0
+# Task Trek (Görev Yönetim Web App)
 
 ## Açıklama
-TaskTrekV2.0, görevleri yönetmek için geliştirilmiş bir React tabanlı web uygulamasıdır. Kullanıcılar görev ekleyebilir, görevleri durumlara göre drag and drop ile yönetebilir, durumlarını (yapılacaklar/yapılıyor/tamamlandı) güncelleyebilir ve etiketler (tags) ile organize edebilir. Ayrıca göz sağlığını korumak için karanlık mod'a geçiş yapabilir. Bu proje, modern bir frontend geliştirme deneyimi sunmak için Vite ile oluşturulmuştur.
+Task Trek (Görev Yönetimi), görevleri yönetmek için geliştirilmiş bir React tabanlı web uygulamasıdır. Kullanıcılar görev ekleyebilir, görevleri durumlara göre drag and drop ile yönetebilir, durumlarını (yapılacaklar/yapılıyor/tamamlandı) güncelleyebilir ve etiketler (tags) ile organize edebilir. Ayrıca göz sağlığını korumak için karanlık mod'a geçiş yapabilir. Bu proje, modern bir frontend geliştirme deneyimi sunmak için Vite ile oluşturulmuştur.
 
 ## Özellikler
 - Görev ekleme ve silme
