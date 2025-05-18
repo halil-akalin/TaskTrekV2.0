@@ -1,0 +1,61 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr; /* İlk satır otomatik, geri kalan esnek */
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #0f0f0f;
+}
+
+.app_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 8%;
+  width: 100%;
+}
+
+.header-title {
+  margin: 40px 0 20px 30px; /* Üstte 40px, altta 20px boşluk */
+  text-align: center;
+  width: 100%;
+}
+
+.app_title {
+  font-family: nunito;
+  font-size: 50px;
+  font-weight: 700;
+  color: #363636;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+}
+
+.app_title.dark {
+  color: #e0e0e0; /* Dark modda başlık rengi */
+}
+
+.task-columns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 20px; /* Sütunlar arası boşluk */
+}
+
+.task_column {
+  width: 30%; /* Her sütun yaklaşık 1/3 genişlik */
+  margin: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.task_column.dark {
+  background-color: #2d2d2d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
